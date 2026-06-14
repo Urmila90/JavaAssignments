@@ -16,6 +16,12 @@ public class DepartmentAssign {
 		this.emp_ref = emp_ref;
 		System.out.println("Department id is:"+DeptId);
 		System.out.println("Department name is:"+DeptName);
+		//employee class variables
+		System.out.println("Employee name is(passed from DepartmentAssign class):"+emp_ref.name);
+		System.out.println("Employee age is(passed from DepartmentAssign class):"+emp_ref.age);
+		System.out.println("Employee id is(passed from DepartmentAssign class):"+emp_ref.id);
+		System.out.println("Employee state is(passed from DepartmentAssign class):"+emp_ref.state);
+		
 		
 	}
 
